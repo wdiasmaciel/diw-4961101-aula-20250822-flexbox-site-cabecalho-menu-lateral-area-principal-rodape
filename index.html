@@ -18,7 +18,7 @@
         }
 
         body {
-            border: .2rem solid rgb(5, 245, 5);
+            /* border: .2rem solid rgb(5, 245, 5); */
             display: flex;
             flex-direction: column;
             height: 100vh;
@@ -26,7 +26,7 @@
 
         header {
             display: flex;
-            border: .2rem solid red;
+            /* border: .2rem solid red; */
             background-color: rgb(51, 46, 46);
             padding: .6rem;
             align-items: center;
@@ -37,7 +37,7 @@
             justify-content: center;
             align-items: center;
             align-content: center;
-            border: .2rem solid rgb(202, 202, 228);
+            /* border: .2rem solid rgb(202, 202, 228); */
             border-radius: 100%;
             width: 3rem;
             height: 3rem;
@@ -56,23 +56,28 @@
 
         section {
             display: flex;
-            border: .2rem solid purple;
+            /* border: .2rem solid purple; */
             flex: 1;
         }
 
-        nav{
-            border: .2rem solid plum;
+        nav {
+            /* border: .2rem solid plum; */
             width: 15rem;
             background-color: #eee;
         }
 
         main {
-            border: .2rem solid orangered;
+            /* border: .2rem solid orangered; */
             flex: 1;
         }
 
+        .cartao {
+            border: .2rem solid red;
+            width: 12rem;
+        }
+
         footer {
-            border: .2rem solid yellow;
+            /* border: .2rem solid yellow; */
             background-color: rgb(51, 46, 46);
             padding: .6rem;
             height: 3rem;
@@ -87,8 +92,12 @@
         <h1 id="titulo">Meu Site</h1>
     </header>
     <section>
-        <nav>Menu lateral</nav>
-        <main>Parte principal</main>
+        <nav></nav>
+        <main>
+            <div class="cartao">
+                Meu cartão
+            </div>
+        </main>
     </section>
     <footer>&copy; 2025 Meu Site ❤️</footer>
 </body>
