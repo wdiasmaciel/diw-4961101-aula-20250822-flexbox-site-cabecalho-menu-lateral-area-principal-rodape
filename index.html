@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +9,24 @@
         * {
             font-size: 16px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 0rem;
+            margin: 0rem;
         }
 
         html {
-            border: .2rem solid aqua;
-            padding: 0rem;
+            /*border: .2rem solid aqua;*/
         }
 
         body {
             border: .2rem solid rgb(5, 245, 5);
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
         }
-       
+
         header {
             display: flex;
-            border: .2rem  solid red;
+            border: .2rem solid red;
             background-color: rgb(51, 46, 46);
             padding: .6rem;
             align-items: center;
@@ -48,14 +53,44 @@
             font-weight: bold;
             color: rgb(233, 232, 232);
         }
+
+        section {
+            display: flex;
+            border: .2rem solid purple;
+            flex: 1;
+        }
+
+        nav{
+            border: .2rem solid plum;
+            width: 15rem;
+            background-color: #eee;
+        }
+
+        main {
+            border: .2rem solid orangered;
+            flex: 1;
+        }
+
+        footer {
+            border: .2rem solid yellow;
+            background-color: rgb(51, 46, 46);
+            padding: .6rem;
+            height: 3rem;
+            color: rgb(233, 232, 232);
+        }
     </style>
 </head>
+
 <body>
     <header>
         <div id="logo">W</div>
         <h1 id="titulo">Meu Site</h1>
     </header>
-    <section>Corpo do site</section>
-    <footer>Rodapé</footer>
+    <section>
+        <nav>Menu lateral</nav>
+        <main>Parte principal</main>
+    </section>
+    <footer>&copy; 2025 Meu Site ❤️</footer>
 </body>
+
 </html>
