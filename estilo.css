@@ -53,6 +53,10 @@
         flex: 1;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     nav {
         /* border: .2rem solid plum; */
         width: 15rem;
@@ -62,23 +66,31 @@
 
     .opcao {
         display: flex;
-        border: .1rem solid green;
+        /* border: .1rem solid green; */
         border-radius: .5rem;
         padding: .6rem;
         background-color: #ddd;
+        color: #5e5e5e;
+    }
+
+    .opcao:hover {
+        background-color: #ccc;
+        color: black;
+        box-shadow: 0rem .3rem .3rem .01rem #ddd;
     }
 
     .icone-inicial {
-        border: .1rem solid red;
+        /* border: .1rem solid red; */
         width: 1.5rem;
     }
 
     .rotulo {
-        border: .1rem solid #0400ff;
+        /* border: .1rem solid #0400ff; */
+        flex: 1;
     }
 
     .icone-final {
-        border: .1rem solid #d000ff;
+        /* border: .1rem solid #d000ff; */
         width: 1.5rem;
         text-align: right;
     }
