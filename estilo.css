@@ -82,7 +82,7 @@
     .opcao:hover .icone-final {
         opacity: 1;
     }
-    
+
     .icone-inicial {
         /* border: .1rem solid red; */
         width: 1.5rem;
@@ -105,6 +105,7 @@
         /* border: .2rem solid orangered; */
         flex: 1;
         padding: 1rem;
+        display: flex;
     }
 
     .cartao {
@@ -113,6 +114,8 @@
         height: 20rem;
         padding: .5rem;
         box-shadow: .5rem .5rem .3rem .01rem #eee;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
     }
 
     .produto {
@@ -153,3 +156,9 @@
         height: 3rem;
         color: #eee;
     }
+
+@media (max-width: 576px) {
+    nav {
+        display: none;
+    }
+}
