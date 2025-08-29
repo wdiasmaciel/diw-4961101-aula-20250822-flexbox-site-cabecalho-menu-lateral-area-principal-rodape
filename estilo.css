@@ -79,6 +79,10 @@
         box-shadow: 0rem .3rem .3rem .01rem #ddd;
     }
 
+    .opcao:hover .icone-final {
+        opacity: 1;
+    }
+    
     .icone-inicial {
         /* border: .1rem solid red; */
         width: 1.5rem;
@@ -93,6 +97,8 @@
         /* border: .1rem solid #d000ff; */
         width: 1.5rem;
         text-align: right;
+        opacity: 0;
+        transition: opacity .3seg ease;
     }
 
     main {
