@@ -64,6 +64,10 @@
         padding: .6rem;
     }
 
+    li {
+        margin-bottom: 1rem;
+    }
+
     .opcao {
         display: flex;
         /* border: .1rem solid green; */
