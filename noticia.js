@@ -19,7 +19,12 @@ function carregarNoticias() {
         const cartao = document.createElement("div");
         cartao.className = "cartao";
 
-        
+        cartao.innerHTML = `
+          <img src="${item.imagem}" alt="${item.titulo}" class="imagem">
+          <section>
+          </section>
+          <a class="botao-cartao" href=".detalhes.html?id=${item.id}">Leia mais</a>
+        `;
     });
 
 }
