@@ -158,15 +158,28 @@
     .cartao {
         border: .1rem solid #ddd;
         width: 13rem;
-        height: 20rem;
+        height: 25rem;
         padding: .5rem;
         box-shadow: .5rem .5rem .3rem .01rem #eee;
         margin-right: 1rem;
         margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
     }
 
-    .produto {
-        width: 100%;
+    .imagem {
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 2/1;
+        object-fit: cover;
+    }
+
+    .corpo-do-cartao {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: space-between;
+        margin-top: .5rem;
     }
 
     .nome-produto {
@@ -175,17 +188,17 @@
         margin-top: 0.3rem;
     }
 
-    .preco {
-        font-size: 1.5rem;
+    .autor-noticia-cartao {
+        font-size: .8rem;
         font-weight: bold;
         color: green;
         margin-top: 0.5rem;
         text-align: right;
     }
 
-    .botao {
+    .botao-cartao {
         margin-top: 0.5rem;
-        width: 100%;
+        max-width: 100%;
         padding: 0.5rem;
         background-color: blue;
         color: #eee;
@@ -194,6 +207,11 @@
         border-radius: .5rem;
         cursor: pointer;
         margin-top: 1rem;
+        text-align: center;
+    }
+
+    .botao-cartao:hover {
+        background-color: #1818b0;
     }
 
     footer {
