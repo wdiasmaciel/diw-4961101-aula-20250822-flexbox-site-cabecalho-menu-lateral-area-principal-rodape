@@ -27,7 +27,7 @@ function carregarNoticias() {
             <p class="descricao-noticia-cartao">${item.descricao}</p>
             <p class="autor-noticia-cartao">${item.autor}</p>
           </section>
-          <a class="botao-cartao" href=".detalhes.html?id=${item.id}">Leia mais</a>
+          <a class="botao-cartao" href="detalhes.html?id=${item.id}">Leia mais</a>
         `;
 
         container.appendChild(cartao);
