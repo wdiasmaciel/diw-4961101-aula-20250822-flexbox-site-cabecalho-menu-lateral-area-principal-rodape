@@ -96,6 +96,10 @@
         padding: .6rem;
     }
 
+    .menu-oculto {
+        display: none;
+    }
+
     li {
         margin-bottom: 1rem;
     }
