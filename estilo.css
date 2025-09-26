@@ -214,6 +214,14 @@ main {
     background-color: #1818b0;
 }
 
+.botao-cartao a {
+    color: #eee;
+}
+
+.botao-cartao:hover a {
+    color: white;
+}
+
 footer {
     /* border: .2rem solid yellow; */
     background-color: rgb(51, 46, 46);
