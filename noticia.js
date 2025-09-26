@@ -14,5 +14,12 @@ function lerNoticias() {
 
 function carregarNoticias() {
     const container = document.getElementById("container");
-    container.innerHTML = "Olá";
+
+    dados.forEach(item => {
+        const cartao = document.createElement("div");
+        cartao.className = "cartao";
+
+        
+    });
+
 }
